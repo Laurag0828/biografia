@@ -3,15 +3,25 @@
     margin: 0;
 }
 
-.container{
-    padding: 20px;
+.banner-img{
+    width: 100%;
+    position: relative;
 }
 
-.logo-img{
-    width: 70px;
+.profile-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position: absolute;
+    top: 300px;
+    left: 10%;
+    border-radius: 50%;
+    border: 8px solid skyblue;
+    box-shadow: 0px 1px 2px var(--shadow);
+
 }
 
-header{
+nav{
     display: flex;
 }
 
@@ -19,6 +29,14 @@ nav ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.logo-img{
+    width: 70px;
+}
+
+.container{
+    margin: 30px;
 }
 
 .footer-social img{
