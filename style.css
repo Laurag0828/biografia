@@ -1,8 +1,45 @@
+/*-------------*/
+/*Global Styles*/
+/*-------------*/
 *{
     padding: 0;
     margin: 0;
 }
 
+nav{
+    z-index: 1;
+    background-color: #403092; /*---*/
+}
+
+.container-fluid-main{
+    padding: 50px;
+}
+
+.card{
+    padding: 15px;
+}
+
+main img{
+    max-width: 300px;
+}
+
+footer{
+    padding: 20px;
+    background-color: skyblue; /*---*/
+    text-align: center;
+}
+
+footer > img{
+    width: 50px;
+}
+
+.footer-social img{
+    width: 30px;
+}
+
+/*-------------*/
+/* I N D E X */
+/*-------------*/
 .banner-img{
     width: 100%;
     position: relative;
@@ -16,37 +53,16 @@
     top: 300px;
     left: 10%;
     border-radius: 50%;
-    border: 8px solid skyblue;
-    box-shadow: 0px 2px 5px grey;
+    border: 8px solid skyblue; /*---*/
+    box-shadow: 0px 2px 5px grey; /*---*/
     z-index: 2;
 }
 
-nav{
-    z-index: 1;
-}
-
-.container-fluid-main{
-    padding: 50px;
-}
-
-.card{
-    padding: 15px;
-}
-
-.about {
+.about{
 
 }
 
-footer{
-    padding: 20px;
-    background-color: skyblue;
-    text-align: center;
+table{
+    max-width: 800px;
 }
 
-footer > img{
-    width: 50px;
-}
-
-.footer-social img{
-    width: 30px;
-}
