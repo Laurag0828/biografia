@@ -25,16 +25,16 @@ nav{
     z-index: 1;
 }
 
-.container{
-    width: 100%;
-    margin: 30px;
+.container-fluid-main{
+    padding: 50px;
 }
 
-.container > div{
-    padding: 20px;
+.card{
+    padding: 15px;
 }
 
 .about {
+    
 }
 
 footer{
