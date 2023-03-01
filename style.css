@@ -34,10 +34,11 @@ nav{
 }
 
 .about {
-    
+
 }
 
 footer{
+    padding: 20px;
     background-color: skyblue;
     text-align: center;
 }
