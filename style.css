@@ -1,69 +1,66 @@
-/*-------------*/
 /*Global Styles*/
-/*-------------*/
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-h1{
-    font-family: 'Gloock', serif;
-    letter-spacing: 2px;
+h1 {
+  font-family: "Gloock", serif;
+  letter-spacing: 2px;
 }
 
-nav{
-    background-color: #403092; /*---*/
+nav {
+  background-color: #403092;
 }
 
-.container-fluid-main{
-    padding: 80px;
-    align-items: center;
+.card {
+  margin: auto;
+  padding: 20px 30px;
+  min-width: 200px;
 }
 
-.card{
-    padding: 15px;
+main img {
+  max-width: 500px;
 }
 
-main img{
-    max-width: 500px;
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #407bc2;
 }
 
-footer{
-    padding: 20px;
-    background-color: skyblue; /*---*/
-    text-align: center;
+footer > img {
+  width: 50px;
 }
 
-footer > img{
-    width: 50px;
-}
-
-.footer-social img{
-    width: 30px;
+.footer-social img {
+  width: 30px;
 }
 
 /*-------------*/
 /* I N D E X */
 /*-------------*/
-.banner-img{
-    width: 100%;
+.banner-img {
+  width: 100%;
 }
 
-.profile-img{
-    width: 250px;
-    height: auto;
-    border-radius: 10px;
-    border: 5px solid #407bc2; /*---*/
-    box-shadow: 0px 2px 5px grey; /*---*/
-    padding: 2px;
-    margin: 10px;
+.profile-img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  border: 5px solid #6da4e7;
+  box-shadow: 0px 2px 5px #d2d2d2;
+  padding: 2px;
+  margin: 10px;
 }
 
-.about{
-
+table {
+  max-width: 800px;
+  border: #403092;
 }
-
-table{
-    max-width: 800px;
-}
-
+table tr:first-child {
+  background-color: #6da4e7;
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */
