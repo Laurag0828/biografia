@@ -6,6 +6,11 @@
     margin: 0;
 }
 
+h1{
+    font-family: 'Gloock', serif;
+    letter-spacing: 2px;
+}
+
 nav{
     background-color: #403092; /*---*/
 }
