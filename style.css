@@ -4,23 +4,47 @@
   margin: 0;
 }
 
+p {
+  font-family: "Raleway", sans-serif;
+}
+
 h1 {
   font-family: "Gloock", serif;
   letter-spacing: 2px;
+  margin-bottom: 15px;
 }
 
 nav {
   background-color: #403092;
 }
 
-.card {
+main img {
+  max-width: 500px;
+}
+
+.about {
+  padding: 30px;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.about h1 {
+  color: #407bc2;
+}
+.about .card {
   margin: auto;
   padding: 20px 30px;
   min-width: 200px;
 }
-
-main img {
-  max-width: 500px;
+.about .profile-img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  border: 5px solid #6da4e7;
+  box-shadow: 0px 2px 5px #d2d2d2;
+  padding: 2px;
 }
 
 footer {
@@ -44,18 +68,6 @@ footer > img {
   width: 100%;
 }
 
-.profile-img {
-  width: 250px;
-  height: 250px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 10px;
-  border: 5px solid #6da4e7;
-  box-shadow: 0px 2px 5px #d2d2d2;
-  padding: 2px;
-  margin: 10px;
-}
-
 table {
   max-width: 800px;
   border: #403092;
@@ -63,4 +75,10 @@ table {
 table tr:first-child {
   background-color: #6da4e7;
   color: #ffffff;
+}
+
+@media (max-width: 650px) {
+  .about {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
