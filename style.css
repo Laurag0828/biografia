@@ -17,9 +17,16 @@ h1 {
 nav {
   background-color: #403092;
 }
+nav .navbar-nav {
+  gap: 20px;
+}
 
 main img {
   max-width: 500px;
+}
+
+.hobbies {
+  padding: 30px;
 }
 
 .about {

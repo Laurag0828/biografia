@@ -28,10 +28,18 @@ h1{
 
 nav{
     background-color: $primary-color;
+
+    .navbar-nav{
+        gap: 20px;
+    }
 }
 
 main img{
     max-width: 500px;
+}
+
+.hobbies{
+    padding: 30px;
 }
 
 .about{
