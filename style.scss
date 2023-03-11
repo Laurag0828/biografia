@@ -91,8 +91,15 @@ main img{
 /*-------------*/
 .hobbies{
     padding: 30px;
+    text-align: center;
+
+    img{
+        width: 300px;
+        padding: 10px;
+    }
     
     button{
+        width: 200px;
         border-radius: 6px;
         padding: 3px 10px;
         border: 2px solid $skyblue2;
@@ -106,15 +113,37 @@ main img{
     }
 }
 
-table{
-    max-width: 800px;
-    border: $primary-color;
+#table-hobbie{
+    display: flex;
+    justify-content: center;
+}
+
+.table{
+    width: 90%;
+    border: 1px solid $skyblue;
+    display: flex;
+    flex-wrap: wrap;
   
     tr:first-child{
       background-color: $skyblue;
       color: $white;
     }
+
+    td img{
+        width: 350px;
+        height: 200px;
+        object-fit: cover;
+    }
 }
+
+/*-------------*/
+/*E S T U D I O*/
+/*-------------*/
+.estudios{
+    text-align: center;
+    padding-top: 30px;
+}
+
 
 /*-------------*/
 /*G A L L E R Y*/

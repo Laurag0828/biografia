@@ -77,8 +77,14 @@ main img {
 /*-------------*/
 .hobbies {
   padding: 30px;
+  text-align: center;
+}
+.hobbies img {
+  width: 300px;
+  padding: 10px;
 }
 .hobbies button {
+  width: 200px;
   border-radius: 6px;
   padding: 3px 10px;
   border: 2px solid #9ac2f2;
@@ -90,13 +96,34 @@ main img {
   color: #ffffff;
 }
 
-table {
-  max-width: 800px;
-  border: #403092;
+#table-hobbie {
+  display: flex;
+  justify-content: center;
 }
-table tr:first-child {
+
+.table {
+  width: 90%;
+  border: 1px solid #6da4e7;
+  display: flex;
+  flex-wrap: wrap;
+}
+.table tr:first-child {
   background-color: #6da4e7;
   color: #ffffff;
+}
+.table td img {
+  width: 350px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*-------------*/
+/*E S T U D I O*/
+/*-------------*/
+.estudios {
+  text-align: center;
+  padding-top: 30px;
 }
 
 /*-------------*/
