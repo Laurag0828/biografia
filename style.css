@@ -14,6 +14,7 @@ h1 {
   font-family: "Gloock", serif;
   letter-spacing: 2px;
   margin-bottom: 15px;
+  color: #407bc2;
 }
 
 h4 {
@@ -44,9 +45,6 @@ main img {
   align-items: center;
   justify-content: space-between;
 }
-.about h1 {
-  color: #407bc2;
-}
 .about .card {
   margin: auto;
   padding: 20px 30px;
@@ -59,7 +57,7 @@ main img {
      object-fit: cover;
   border-radius: 10px;
   border: 5px solid #6da4e7;
-  box-shadow: 0px 2px 5px #cecece;
+  box-shadow: 2px 2px 5px #939393;
   padding: 2px;
 }
 
@@ -77,6 +75,27 @@ table {
 table tr:first-child {
   background-color: #6da4e7;
   color: #ffffff;
+}
+
+/*-------------*/
+/*G A L L E R Y*/
+/*-------------*/
+.galeria {
+  text-align: center;
+  padding-top: 30px;
+}
+.galeria .grid-container {
+  display: grid;
+  padding: 30px;
+  gap: 30px;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+}
+.galeria .grid-container img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px #939393;
+  border: 3px solid #ffffff;
 }
 
 /* FOOTER */

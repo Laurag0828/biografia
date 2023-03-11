@@ -5,6 +5,7 @@ $skyblue: #6da4e7;
 $skyblue2: #9ac2f2;
 $white: #ffffff;
 $grey: #cecece;
+$dark-grey: #939393;
 
 /*FONTS VARIABLES*/
 $gloock: 'Gloock', serif;
@@ -28,6 +29,7 @@ h1{
     font-family: $gloock;
     letter-spacing: 2px;
     margin-bottom: 15px;
+    color: $secondary-color;
 }
 
 h4{
@@ -58,10 +60,6 @@ main img{
     gap: 30px;
     align-items: center;
     justify-content: space-between;
-
-    h1{
-        color: $secondary-color;
-    }
     
     .card{
         margin: auto;
@@ -75,7 +73,7 @@ main img{
         object-fit: cover;
         border-radius: 10px;
         border: 5px solid $skyblue;
-        box-shadow: 0px 2px 5px $grey;
+        box-shadow: 2px 2px 5px $dark-grey;
         padding: 2px;
     }
 }
@@ -83,7 +81,6 @@ main img{
 /*-------------*/
 /* H O B B I E */
 /*-------------*/
-
 .hobbies{
     padding: 30px;
 }
@@ -95,6 +92,30 @@ table{
     tr:first-child{
       background-color: $skyblue;
       color: $white;
+    }
+}
+
+/*-------------*/
+/*G A L L E R Y*/
+/*-------------*/
+.galeria{
+    text-align: center;
+    padding-top: 30px;
+
+    .grid-container{
+        display: grid;
+        padding: 30px;
+        gap: 30px;
+        grid-template-columns: repeat(4, auto);
+        justify-content: center;
+    
+        img{
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px $dark-grey;
+            border: 3px solid $white;
+        }
+    
     }
 }
 
