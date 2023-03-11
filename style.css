@@ -1,4 +1,6 @@
-/*Global Styles*/
+/*COLORS VARIABLES*/
+/*FONTS VARIABLES*/
+/*GLOBAL STYLES*/
 * {
   padding: 0;
   margin: 0;
@@ -14,6 +16,10 @@ h1 {
   margin-bottom: 15px;
 }
 
+h4 {
+  font-family: "Lora", serif;
+}
+
 nav {
   background-color: #403092;
 }
@@ -25,8 +31,11 @@ main img {
   max-width: 500px;
 }
 
-.hobbies {
-  padding: 30px;
+/*-------------*/
+/* I N D E X */
+/*-------------*/
+.banner-img {
+  width: 100%;
 }
 
 .about {
@@ -50,29 +59,15 @@ main img {
      object-fit: cover;
   border-radius: 10px;
   border: 5px solid #6da4e7;
-  box-shadow: 0px 2px 5px #d2d2d2;
+  box-shadow: 0px 2px 5px #cecece;
   padding: 2px;
 }
 
-footer {
-  padding: 20px;
-  text-align: center;
-  background-color: #407bc2;
-}
-
-footer > img {
-  width: 50px;
-}
-
-.footer-social img {
-  width: 30px;
-}
-
 /*-------------*/
-/* I N D E X */
+/* H O B B I E */
 /*-------------*/
-.banner-img {
-  width: 100%;
+.hobbies {
+  padding: 30px;
 }
 
 table {
@@ -84,8 +79,46 @@ table tr:first-child {
   color: #ffffff;
 }
 
+/* FOOTER */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #407bc2;
+  color: #cecece;
+  align-items: center;
+  /*COLUMNA #1*/
+  /*COLUMNA #2*/
+  /*COLUMNA #3*/
+}
+footer h4, footer h5 {
+  color: #ffffff;
+}
+footer .footer-info img {
+  width: 100px;
+}
+footer .footer-contacto form input, footer .footer-contacto form button {
+  border-radius: 6px;
+  padding: 3px 10px;
+  border: 1px solid #9ac2f2;
+}
+footer .footer-contacto form button {
+  background-color: #6da4e7;
+  color: #ffffff;
+}
+footer .footer-contacto form button:hover {
+  background-color: #9ac2f2;
+  border: 1px solid #ffffff;
+}
+footer .footer-social img {
+  width: 35px;
+}
+
 @media (max-width: 650px) {
   .about {
     flex-direction: column;
+  }
+  footer > div {
+    flex-direction: column;
+    gap: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
